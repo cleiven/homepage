@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  font-family: "VT323", sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  background-size: cover;
+  background-color: gray;
+  /* background-image: url(https://i.imgur.com/glWla8v.png); */ 
+}
+
+.maindiv {
+  text-align: center;
+  background-color: white;
+  margin: 10px;
+  height: 100%;
+  border: 50px solid transparent;
+  padding: 15px;
+  border-image: url("border-5.png") 10 round;
+  image-rendering: pixelated;
+}
+.nextarrow {
+  width: 128px;
+  height: 64px;
+  image-rendering: pixelated;
+  background-image: url("nextarrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.thankyou {
+  width: 512px;
+  height: 256px;
+  margin: auto;
+  image-rendering: pixelated;
+  background-image: url("thankyou2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.titlecard {
+  font-size: 20px;
+  width: 400px;
+  height: 50px;
+  align-self: center;
+  margin: auto;
+  image-rendering: pixelated;
+  background-image: url("title.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+p {
+  font-family: "VT323", sans-serif;
+  text-align: justify;
+  font-size: 30px;
+}
+h1 {
+  margin: 0;
+  font-size: 50px;
+}
